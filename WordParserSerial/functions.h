@@ -1,8 +1,9 @@
-
+#include <stdbool.h>
 #include<stdio.h>
 
 // Function Prototypes
 int stringLen(char *);
+bool parseForHello(char input, char *key);
 
 
 
@@ -28,3 +29,17 @@ int stringLen(char *base){
         }
     }
 }
+
+
+// parseForHello takes input char stream one char at a time, and outputs '1' when it
+// receives the string stored in key[] as a continuous input sequence, else, it outputs '0'
+
+bool parseForHello(char input, char *key){
+
+    int strlen = stringLen(key);
+
+    // Algo logic : Refer state machine diagram
+
+}
+
+
