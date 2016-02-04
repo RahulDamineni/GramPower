@@ -10,6 +10,6 @@ Serial Data Word Parser
 
 # ToDo
 - Modify to make a 'phrase parser'
-- Add a 'makefile'
+
 
 
