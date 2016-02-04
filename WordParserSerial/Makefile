@@ -3,4 +3,4 @@ CC=gcc
 CFLAGS=-I.
 
 all:
-        $(CC) main.c -o run
+        $(CC) main.c -o WordParser
