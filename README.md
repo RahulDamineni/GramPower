@@ -9,7 +9,6 @@ Serial Data Word Parser
 - Can be modified to find any word by just changing line#13 on main.c
 
 # ToDo
-- Rectify the bug
 - Modify to make a 'phrase parser'
 - Add a 'makefile'
 
